@@ -88,7 +88,7 @@
     const restartBtn = document.getElementById("restartBtn");
 
     let score = 0;
-    let timeLeft = 30;         // ⏱ 30 seconds
+    let timeLeft = 60;         // ⏱ 60 seconds
     let gameRunning = true;    // to stop game after time ends
     let emojiInterval;         // store interval id
 
@@ -169,7 +169,7 @@
     restartBtn.addEventListener("click", () => {
       // Reset values
       score = 0;
-      timeLeft = 30;
+      timeLeft = 60;
       gameRunning = true;
       scoreDisplay.textContent = score;
       timerDisplay.textContent = timeLeft;
